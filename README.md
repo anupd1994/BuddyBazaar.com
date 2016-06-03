@@ -12,6 +12,6 @@ Most commercial recommender systems are strongly supported by the demographic in
 
 ## HOW TO START
 1. Create a new facebook app by visiting [here](devolpers.facebook.com). On creating an app you would get appID and app secret which is to be copied in the mentioned space in facebook.jsp. Please note to add localhost as domain name in settings tab of facebook app.
-2. Download mongoDB from [here](https://www.mongodb.com/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.2.6-signed.msi/download). On downloading run mongod.exe as administrator and keep it running in the background. This act as mongodb server. Open mongo.exe and type "use movieLens". This creates a database movieLens. Now use mongoimport to import csv file to mongodb database. The csv file can be obtained from [here](http://files.grouplens.org/datasets/movielens/ml-100k.zip).
+2. Download mongoDB from [here](https://www.mongodb.com/dr/fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.2.6-signed.msi/download). On downloading run mongod.exe as administrator and keep it running in the background. This act as mongodb server. Open mongo.exe and type "use movieLens". This creates a database movieLens.  The csv file can be obtained from [here](http://files.grouplens.org/datasets/movielens/ml-100k.zip). Use the app csvtoMongoDB given seperatly. Here please change the code in the file csvtomongodb to the location where you have the data set.
 3. Download and install mongodb plugin for netbeans by following steps [given here](https://github.com/le-yams/nbmongo).
-4. You are now ready to run the app.
+4. Now you can use the app.
