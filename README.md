@@ -5,6 +5,7 @@ Most commercial recommender systems are strongly supported by the demographic in
 ## Software Components
 1. [mongoDB](https://www.mongodb.com/): [mongoDB](https://www.mongodb.com/)  is a free and open-source cross-platform document-oriented database.MongoDB is developed by MongoDB Inc. and is free and open-source, published under a combination of the GNU Affero General Public License and the Apache License.
 2. [Oracle 10G](http://www.oracle.com/technetwork/database/database10g/overview/ds-general-oracle-database10gr2-se--132024.pdf): [Oracle 10G](http://www.oracle.com/technetwork/database/database10g/overview/ds-general-oracle-database10gr2-se--132024.pdf) is a object-relational database management system.
-3. [Mahout](http://mahout.apache.org/) :[Mahout](http://mahout.apache.org/)  is a project of the Apache Software Foundation to produce free implementations of distributed or otherwise scalable machine learning algorithms focused primarily in the areas of collaborative filtering, clustering and classification
+3. [Mahout](http://mahout.apache.org/) :[Mahout](http://mahout.apache.org/)  is a project of the Apache Software Foundation to produce free implementations of distributed or otherwise scalable machine learning algorithms focused primarily in the areas of collaborative filtering, clustering and classification.
+
 ## Data-sets
 [MovieLens Dataset](http://grouplens.org/datasets/movielens/) is used in this project.
